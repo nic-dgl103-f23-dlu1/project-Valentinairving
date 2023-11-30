@@ -7,9 +7,19 @@ body {
     
 }
 
-h1, h2, h3 {
-    font-family: 'DM Sans';
+h1, h2  {
+    text-align: center;
+    font-family: 'DM sans';
 }
+
+h3 {
+    font-size: 22px;
+    
+    font-family: 'DM sans';
+    text-align: center;
+}
+
+
 
 /* Nav */
 
@@ -17,7 +27,6 @@ nav ul {
     border: 2px;
     border-color: #002E8B;
     margin: 0;
-    background-color: aliceblue;
     position:relative;
     left: 940px;
     bottom: 165px;
@@ -30,7 +39,7 @@ nav ul {
 nav li a {
     font-size: 18px;
     
-    color: #073980;
+    color: black;
     margin: 10px;
     text-decoration: none;
     display: block;
@@ -43,7 +52,7 @@ hr {
    
     position: relative;
     bottom: 110px;
-    height: 5px;
+    height: 10px;
     background-color: #073980
 }
 
@@ -57,9 +66,14 @@ hr {
 }
 
 .intro img {
-    display: block;
-    float: right;
+    border-radius: 50%;
 }
+
+.intro hr {
+    position: relative;
+    bottom: 10px;
+}
+
 
 /* Content Block 2 */
 
@@ -84,13 +98,90 @@ hr {
 
 /* Content Block 3 */
 
+.info {
+    display: block;
+    flex-direction: column;
+}
+
+.info-1 {
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20%;
+    text-align: center;
+    margin: 50px;
+    height: 300;
+    width: 500px;
+    border-color: #002E8B;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.info-2 {
+    margin: 50px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20%;
+    text-align: center;
+    height: 300;
+    width: 500px;
+    border-color: #002E8B;
+    border-style: solid;
+    border-width: 5px;
+    
+}
 
 /* Content Block 4 */
 
-.steps {
-    display: flex;
+.break-2 {
+    position: relative;
+    bottom: 5px;
+    height: 20;
+    color: #073980
 }
 
+.steps {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.steps img {
+    border-radius: 60%;
+}
+
+.step-1 {
+    height: 300;
+    text-align: center;
+    width: 600px;
+}
+
+.step-2 {
+    
+    text-align: center;
+    width: 600px;
+}
+
+.step-3 {
+    
+    text-align: center;
+    width: 600px;
+}
+
+.step-4 {
+    
+    text-align: center;
+    width: 600px;
+}
+
+/* footer */
+
+footer hr {
+    position: relative;
+    bottom: 20px;
+}
 
 
 
