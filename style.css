@@ -4,6 +4,7 @@
 body {
     background-color: aliceblue;
     font-family: 'Open Sans';
+    
 }
 
 h1, h2, h3 {
@@ -19,7 +20,7 @@ nav ul {
     background-color: aliceblue;
     position:relative;
     left: 940px;
-    bottom: 155px;
+    bottom: 165px;
     width: 200px;
     list-style-type: none;
     padding: 0;
@@ -27,7 +28,7 @@ nav ul {
 }
 
 nav li a {
-    font-size: large;
+    font-size: 18px;
     
     color: #073980;
     margin: 10px;
@@ -39,6 +40,7 @@ nav li a {
 
 
 hr {
+   
     position: relative;
     bottom: 110px;
     height: 5px;
@@ -46,3 +48,50 @@ hr {
 }
 
 /* Content Block One */
+
+.intro-1 {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 60px;
+}
+
+.intro img {
+    display: block;
+    float: right;
+}
+
+/* Content Block 2 */
+
+.content-2 {
+    font-size: 18px;
+    display: flex;
+}
+
+.about {
+
+    margin: 20px;
+    height: 315px;
+    width: 700px;
+    flex-direction: column;
+}
+
+.video {
+    padding: 10px;
+    
+    flex-direction: column;
+}
+
+/* Content Block 3 */
+
+
+/* Content Block 4 */
+
+.steps {
+    display: flex;
+}
+
+
+
+
+
