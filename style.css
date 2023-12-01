@@ -8,13 +8,13 @@ body {
 }
 
 h1, h2  {
+    font-size: 30px;
     text-align: center;
     font-family: 'DM sans';
 }
 
 h3 {
-    font-size: 22px;
-    
+    font-size: 30px;
     font-family: 'DM sans';
     text-align: center;
 }
@@ -78,6 +78,7 @@ hr {
 /* Content Block 2 */
 
 .content-2 {
+    background-color: white;
     font-size: 18px;
     display: flex;
 }
@@ -96,11 +97,123 @@ hr {
     flex-direction: column;
 }
 
+
+
 /* Content Block 3 */
 
-.info {
-    display: block;
+.break-2 {
+    position: relative;
+    bottom: 5px;
+    height: 20;
+    color: #073980
+}
+
+.steps {
+    column-gap: 20px;
+    padding: 30px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.steps img {
+    border-color: #002E8B;
+    border-radius: 60%;
+}
+
+.step-1 {
+    
+    font-size: 20px;
+    height: 300;
+    text-align: center;
+    width: 500px;
+}
+
+.step-2 {
+    
+    font-size: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.step-3 {
+    font-size: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.step-4 {
+    font-size: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+/* Content Block 5 */
+
+.content-4 {
+   height: 450px;
+    background-color: white;
+}
+
+.content-4 h2 {
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.content-4 ul {
+    position: relative;
+    left: 650px;
+    top: 100px;
+    
+}
+.content-4 ul li {
+    margin: 10px;
+    font-size: 20px;
+    
+    
+}
+
+
+.products {
+    position: relative;
+    
+    
+    bottom: 150px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    
+}
+.content-4 hr {
+    position: relative;
+    bottom: 5px;
+}
+
+.link {
+    font-style: bold;
+    font-size: 21px;
+    margin-top: 5px;
+    position: relative;
+    top: 120px;
+    left: 730px;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.break-3 {
+    
+    position: relative;
+    bottom: 10px;
+}
+/* Content Block 6 */
+
+.info {
+    
+    display: flex;
+    flex-direction: row;
 }
 
 .info-1 {
@@ -132,49 +245,8 @@ hr {
     
 }
 
-/* Content Block 4 */
 
-.break-2 {
-    position: relative;
-    bottom: 5px;
-    height: 20;
-    color: #073980
-}
 
-.steps {
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.steps img {
-    border-radius: 60%;
-}
-
-.step-1 {
-    height: 300;
-    text-align: center;
-    width: 600px;
-}
-
-.step-2 {
-    
-    text-align: center;
-    width: 600px;
-}
-
-.step-3 {
-    
-    text-align: center;
-    width: 600px;
-}
-
-.step-4 {
-    
-    text-align: center;
-    width: 600px;
-}
 
 /* footer */
 
