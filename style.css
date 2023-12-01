@@ -245,6 +245,31 @@ hr {
     
 }
 
+.break-4 {
+    position:relative;
+    top: 20px
+}
+
+/* Content Block 6 */
+
+.reviews {
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+}
+
+.reviews img {
+    width: 150px
+}
+.review-1 {
+    width: 300px;
+}
+.review-2 {
+    width: 200px;
+}
+
 
 
 
