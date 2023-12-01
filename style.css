@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
 
 body {
+    margin: 0;
     background-color: aliceblue;
     font-family: 'Open Sans';
     
@@ -78,6 +79,7 @@ hr {
 /* Content Block 2 */
 
 .content-2 {
+    height: 400px;
     background-color: white;
     font-size: 18px;
     display: flex;
@@ -254,20 +256,31 @@ hr {
 
 .reviews {
     margin-bottom: 20px;
+    margin: 0;
     background-color: white;
     display: flex;
     flex-direction: row;
-    row-gap: 20px;
+    
+    
 }
 
 .reviews img {
+    align-items: center;
     width: 150px
 }
 .review-1 {
+    padding:50px;
     width: 300px;
+    align-items: center;
 }
 .review-2 {
-    width: 200px;
+    padding: 50px;
+    width: 300px;
+}
+
+.review-3 {
+    padding: 50px;
+    width:300px;
 }
 
 
