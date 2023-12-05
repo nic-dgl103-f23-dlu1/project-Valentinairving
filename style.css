@@ -412,3 +412,55 @@ a {margin-left: 10px;
     border-color: #002E8B;
     border-width: 5px;
 }
+
+/*--------------Content Block 4------------------*/
+
+.about-break {
+    position: relative;
+    top:10px
+}
+.about-us {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+   
+}
+
+.about-us li {
+    margin: 10px;
+}
+
+.location {
+    position: relative;
+    bottom: 180px;
+    margin-left: 40px;
+    margin-top: 100px;
+    padding-top: 50px;
+    
+   
+    
+}
+
+.map {
+    
+    border-style: solid;
+    border-color: #002E8B;
+    height: 253px;
+    margin-left: 100px;
+    
+}
+
+.contact-us {
+    position: relative;
+    bottom: 75px;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 60px;
+   
+}
+
+.message {
+    height:100px
+}
