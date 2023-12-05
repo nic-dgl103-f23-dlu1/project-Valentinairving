@@ -1,91 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <img src="images/logo.png" width="300" />
 
-<section class="header">
-        <img src="images/logo.png" width="300">
-        
-        <nav> 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
-        </nav>
-</section>
-<hr>
-<h3 class="about-title">About Us</h3>
-<section class="non-profit">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </section>
+    <hr />
+    <h3 class="about-title">About Us</h3>
+    <section class="non-profit">
+      <img src="images/nonprofit.jpg" width="250" height="200" />
+      <p>
+        The Comox Valley Lifeline Society is a non-profit, charitable
+        organization that provides Lifeline services to a variety of individuals
+        who may feel reassured that help is available to them twenty four hours
+        a day, seven days a week. The Society was established in 1988 by the
+        'Lions of the North Island' because the membership believed that people
+        deserved the dignity to live on their own and have access to immediate
+        help in an emergency situation.
+      </p>
+    </section>
+    <hr />
+    <section class="volunteer">
+      <img src="images/volunteer.jpg" width="300" height="200" />
 
-    <img src="images/nonprofit.jpg" width="250" height="200">
-    <p>The Comox Valley Lifeline Society is a non-profit, charitable organization that provides Lifeline services to a variety of individuals who may feel reassured that help is available to them twenty four hours a day, seven days a week.
+      <p>
+        Volunteers are the back-bone of the Society and their participation is
+        important to the success of our program. Volunteers work diligently to
+        provide our Clients with high quality service including: equipment
+        installations, service calls, maintenance calls and the promotion of the
+        Lifeline Services. These dedicated people make it possible for our
+        Society to offer our services at a reasonable price.
+      </p>
+    </section>
+    <hr class="break-volunteer" />
+    <section class="donations">
+      <img src="images/donation.jpg" width="200" height="200" />
+      <div class="donation-content">
+        <h3>How We Work</h3>
+        <p>
+          The Comox Valley Lifeline Society is a registered charitable
+          organization. Our services are funded by our install fees, monthly
+          monitoring fees and generous donations made by individuals and service
+          clubs who support our program. If you are interested in helping us
+          meet our goal in providing Lifeline service to everyone who needs it,
+          please consider making a donation of your own. For more information,
+          please call the office phone number listed in your area.
+        </p>
+      </div>
+    </section>
+    <hr class="about-break" />
+    <section class="about-us">
+      <div class="location">
+        <h2>Communities We Serve</h2>
+        <ul>
+          <li>Cowichan Valley</li>
+          <li>Chemainus-Crofton</li>
+          <li>Sunshine Coast</li>
+          <li>Comox Valley</li>
+          <li>Campbell River And North Vancouver Island</li>
+        </ul>
+      </div>
+      <div class="map">
+        <img src="images/map.jpg" width="300" />
+      </div>
 
-        The Society was established in 1988 by the 'Lions of the North Island' because the membership believed that people deserved the dignity to live on their own and have access to immediate help in an emergency situation.</p>
-</section>
-<hr>
-<section class="volunteer">
-    <img src="images/volunteer.jpg" width="300" height="200">
-    
-    <p>
-        Volunteers are the back-bone of the Society and their participation is important to the success of our program.  Volunteers work diligently to provide our Clients with high quality service including: equipment installations, service calls, maintenance calls and the promotion of the Lifeline Services.  These dedicated people make it possible for our Society to offer our services at a reasonable price.</p>
-       
-</section>
-<hr class="break-volunteer">
-<section class="donations">
-    <img src="images/donation.jpg" width="200" height="200">
-    <div class="donation-content">
-    <h3>How We Work</h3>
-    <p>The Comox Valley Lifeline Society is a registered charitable organization.  Our services are funded by our install fees, monthly monitoring fees and generous donations made by individuals and service clubs who support our program.  If you are interested in helping us meet our goal in providing Lifeline service to everyone who needs it, please consider making a donation of your own.  For more information, please call the office phone number listed in your area.</p>
-    </div>
-</section>
-<hr class="about-break">
-<section class="about-us">
-<div class="location">
-    <h2> Communities We Serve</h2>
-<ul>
-    <li>Cowichan Valley</li>
-    <li> Chemainus-Crofton</li>
-    <li>Sunshine Coast</li>
-    <li> Comox Valley </li>
-    <li> Campbell River And North Vancouver Island</li>
-</ul>
-</div>
-<div class="map">
-<img src="images/map.jpg" width="300">
-</div>
+      <div class="contact-us">
+        <h3>Contact Us</h3>
+        <form>
+          <label for="name">Full Name:</label><br />
+          <input type="text" id="name" /><br />
+          <label for="email">Email:</label><br />
+          <input type="text" id="email" /><br />
+          <label for="message">Message:</label><br />
+          <input type="text" id="message" class="message" /><br />
+          <input type="submit" value="Submit" /><br />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <hr />
 
-<div class="contact-us">
-<h3> Contact Us </h3>
-<form>
-    <label for="name">Full Name:</label><br>
-    <input type="text" id="name"><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email"><br>
-    <label for="message">Message:</label><br>
-    <input type="text" id="message" class="message"><br>
-    <input type="submit" value="Submit"><br>
-</form>
-</div>
-
-</section>
-<footer>
-    <hr>
-    
-    <a href="https://www.lifeline.ca/en/">Learn More at Lifeline Canada</a>
-    <a href="http://www.canwestlifeline.com/">Member of the Western Canadian Association of Lifeline Programs</a>
-    <p>* “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”</p>
-    <p>* "All reviews were made using ChatGPT"</p>
-</footer>
-
-
-    
-</body>
+      <a href="https://www.lifeline.ca/en/">Learn More at Lifeline Canada</a>
+      <a href="http://www.canwestlifeline.com/"
+        >Member of the Western Canadian Association of Lifeline Programs</a
+      >
+      <p>
+        * “This is a fictional website that was designed and coded as an
+        educational exercise. It is not intended to be seen outside of the class
+        environment. None of the content and images were approved by the
+        business owner.”
+      </p>
+      <p>* "All reviews were made using ChatGPT"</p>
+    </footer>
+  </body>
 </html>
-
-

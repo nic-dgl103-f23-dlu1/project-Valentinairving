@@ -1,614 +1,584 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap");
 
 body {
-    margin: 0;
-    background-color: aliceblue;
-    font-family: 'Open Sans';
-    
+  margin: 0;
+  background-color: aliceblue;
+  font-family: "Open Sans";
 }
 
-h1, h2  {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'DM sans';
+h1,
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "DM sans";
 }
 
 h3 {
-    font-size: 30px;
-    font-family: 'DM sans';
-    text-align: center;
+  font-size: 30px;
+  font-family: "DM sans";
+  text-align: center;
 }
-
-
 
 /* Nav */
 
 .header {
-    background-color: white;
-    height: 200px;
+  background-color: white;
+  height: 200px;
 }
 
 nav ul {
-    border: 2px;
-    border-color: #002E8B;
-    margin: 0;
-    position:relative;
-    left: 940px;
-    bottom: 165px;
-    width: 200px;
-    list-style-type: none;
-    padding: 0;
-    
+  border: 2px;
+  border-color: #002e8b;
+  margin: 0;
+  position: relative;
+  left: 940px;
+  bottom: 165px;
+  width: 200px;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav li a {
-    font-size: 18px;
-    
-    color: black;
-    margin: 10px;
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    text-align: center;
+  font-size: 18px;
+
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
 }
 
-
 hr {
-   
-    position: relative;
-    bottom: 40px;
-    height: 30px;
-    background-color: #073980
+  position: relative;
+  bottom: 40px;
+  height: 30px;
+  background-color: #073980;
 }
 
 /* Content Block One */
 
 .intro-1 {
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    bottom: 120px;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  bottom: 120px;
 }
 
 .intro img {
-    margin-top: 40px;
-    border-radius: 50%;
+  margin-top: 40px;
+  border-radius: 50%;
 }
 
 .intro hr {
-    position: relative;
-    top: 8px;
+  position: relative;
+  top: 8px;
 }
 
 .intro h1 {
-    padding-top: 150px;
+  padding-top: 150px;
 }
-
 
 /* Content Block 2 */
 
 .content-2 {
-    height: 400px;
-    background-color: white;
-    font-size: 18px;
-    display: flex;
+  height: 400px;
+  background-color: white;
+  font-size: 18px;
+  display: flex;
 }
 
 .about {
-
-    margin: 20px;
-    height: 315px;
-    width: 700px;
-    flex-direction: column;
+  margin: 20px;
+  height: 315px;
+  width: 700px;
+  flex-direction: column;
 }
 
 .video {
-    padding: 10px;
-    padding-top: 40px;
-    flex-direction: column;
+  padding: 10px;
+  padding-top: 40px;
+  flex-direction: column;
 }
-
-
 
 /* Content Block 3 */
 
 .break-2 {
-    position: relative;
-    bottom: 5px;
-    height: 20;
-    color: #073980
+  position: relative;
+  bottom: 5px;
+  height: 20;
+  color: #073980;
 }
 
 .steps {
-    column-gap: 20px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  column-gap: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .steps img {
-    border-color: #002E8B;
-    border-radius: 60%;
+  border-color: #002e8b;
+  border-radius: 60%;
 }
 
 .step-1 {
-    
-    font-size: 20px;
-    height: 300;
-    text-align: center;
-    width: 500px;
+  font-size: 20px;
+  height: 300;
+  text-align: center;
+  width: 500px;
 }
 
 .step-2 {
-    
-    font-size: 20px;
-    text-align: center;
-    width: 600px;
+  font-size: 20px;
+  text-align: center;
+  width: 600px;
 }
 
 .step-3 {
-    font-size: 20px;
-    text-align: center;
-    width: 600px;
+  font-size: 20px;
+  text-align: center;
+  width: 600px;
 }
 
 .step-4 {
-    font-size: 20px;
-    text-align: center;
-    width: 600px;
+  font-size: 20px;
+  text-align: center;
+  width: 600px;
 }
 
 /* Content Block 5 */
 
 .content-4 {
-   height: 450px;
-    background-color: white;
+  height: 450px;
+  background-color: white;
 }
 
 .content-4 h2 {
-    position: relative;
-    left: 200px;
-    top: 50px;
+  position: relative;
+  left: 200px;
+  top: 50px;
 }
 
 .content-4 ul {
-    position: relative;
-    left: 650px;
-    top: 100px;
-    
+  position: relative;
+  left: 650px;
+  top: 100px;
 }
 .content-4 ul li {
-    margin: 10px;
-    font-size: 20px;
-    
-    
+  margin: 10px;
+  font-size: 20px;
 }
-
 
 .products {
-    position: relative;
-    
-    
-    bottom: 150px;
-    left: 150px;
-    width: 100px;
-    height: 100px;
-    
+  position: relative;
+
+  bottom: 150px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
 }
 .content-4 hr {
-    position: relative;
-    bottom: 5px;
+  position: relative;
+  bottom: 5px;
 }
 
 .link {
-    font-style: bold;
-    font-size: 21px;
-    margin-top: 5px;
-    position: relative;
-    top: 120px;
-    left: 730px;
-    text-align: center;
-    height: 35px;
-    width: 150px;
-    background-color: aliceblue;
+  font-style: bold;
+  font-size: 21px;
+  margin-top: 5px;
+  position: relative;
+  top: 120px;
+  left: 730px;
+  text-align: center;
+  height: 35px;
+  width: 150px;
+  background-color: aliceblue;
 }
 
 .break-3 {
-    
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 /* Content Block 6 */
 
 .info {
-    
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .info-1 {
-    flex-direction: column;
-    background-color: white;
-    padding: 20px;
-    border-radius: 20%;
-    text-align: center;
-    margin: 50px;
-    height: 300;
-    width: 500px;
-    border-color: #002E8B;
-    border-style: solid;
-    border-width: 5px;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20%;
+  text-align: center;
+  margin: 50px;
+  height: 300;
+  width: 500px;
+  border-color: #002e8b;
+  border-style: solid;
+  border-width: 5px;
 }
 
 .info-2 {
-    margin: 50px;
-    flex-direction: column;
-    padding: 20px;
-    background-color: white;
-    border-radius: 20%;
-    text-align: center;
-    height: 300;
-    width: 500px;
-    border-color: #002E8B;
-    border-style: solid;
-    border-width: 5px;
-    
+  margin: 50px;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20%;
+  text-align: center;
+  height: 300;
+  width: 500px;
+  border-color: #002e8b;
+  border-style: solid;
+  border-width: 5px;
 }
 
 .break-4 {
-    position:relative;
-    top: 45px
+  position: relative;
+  top: 45px;
 }
 
 /* Content Block 6 */
 
 .reviews {
-    height: 400px;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    margin: 0;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    row-gap: 50px;
-    align-content: flex-start;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  row-gap: 50px;
+  align-content: flex-start;
 }
 
 .title {
-    padding-top: 40px;
-    height: 90px;
-    top: 35px;
-    background-color: white;
-    position: relative;
-    margin-top: 10px;
-    text-align: center;
+  padding-top: 40px;
+  height: 90px;
+  top: 35px;
+  background-color: white;
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .reviews img {
-    align-items: center;
-    width: 150px
+  align-items: center;
+  width: 150px;
 }
 .review-1 {
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 50px;
-    width: 300px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 50px;
+  width: 300px;
 }
 .review-2 {
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 115px;
-    width: 300px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 115px;
+  width: 300px;
 }
 
 .review-3 {
-    text-align: center;
-    height: 200px;
-    margin-top: 60px;
-    margin-left: 120px;
-    width:300px;
+  text-align: center;
+  height: 200px;
+  margin-top: 60px;
+  margin-left: 120px;
+  width: 300px;
 }
-
-
-
 
 /* footer */
 
 footer hr {
-    position: relative;
-    bottom: 20px;
+  position: relative;
+  bottom: 20px;
 }
 
-a {margin-left: 10px;
+a {
+  margin-left: 10px;
 }
-
-
 
 /*-----------------------ABOUT US-----------------------------*/
 
 .non-profit {
-    padding-bottom: 50px;
-    height: 325px;
-    display: flex;
-    
+  padding-bottom: 50px;
+  height: 325px;
+  display: flex;
 }
 
 .non-profit img {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #002E8B;
-    margin-left: 100px;
-    
-
-
+  border-style: solid;
+  border-width: 5px;
+  border-color: #002e8b;
+  margin-left: 100px;
 }
 
 .non-profit p {
-    border: #002E8B;
-    border-width: 5px;
-    width: 500px;
-    padding-left: 200px;
-    
+  border: #002e8b;
+  border-width: 5px;
+  width: 500px;
+  padding-left: 200px;
 }
 
 .about-title {
-    padding-left: 375px
+  padding-left: 375px;
 }
 
 /*-----------------Content Block 2-------------------*/
 
 .volunteer {
-    
-    position: relative;
-    bottom: 50px;
-    height: 400px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  bottom: 50px;
+  height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .volunteer p {
-    padding: 20px;
-    margin-bottom: 30px;
-    background-color: aliceblue;
-    margin: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  margin: 10px;
 
-    border-style: solid;
-    border-color: #002E8B;
-    border-width: 2px;
-    width: 500px;
+  border-style: solid;
+  border-color: #002e8b;
+  border-width: 2px;
+  width: 500px;
 }
 
 /*---------------------Content Block 3--------------------*/
 
 .donations {
-   padding-bottom: 100px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .donation-content {
-    margin-left: 250px;
-    position: relative;
-    right:400px;
-    width: 500px;
+  margin-left: 250px;
+  position: relative;
+  right: 400px;
+  width: 500px;
 }
 
 .break-volunteer {
-    position: relative;
-    bottom: 75px;
+  position: relative;
+  bottom: 75px;
 }
 
 .donations img {
-    position: relative;
-    right: 200px;
-    border-style: solid;
-    border-color: #002E8B;
-    border-width: 5px;
+  position: relative;
+  right: 200px;
+  border-style: solid;
+  border-color: #002e8b;
+  border-width: 5px;
 }
 
 /*--------------Content Block 4------------------*/
 
 .about-break {
-    position: relative;
-    top:10px
+  position: relative;
+  top: 10px;
 }
 .about-us {
-    height: 350px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    padding-top: 50px;
-   
+  height: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
 }
 
 .about-us li {
-    margin: 10px;
+  margin: 10px;
 }
 
 .location {
-    position: relative;
-    bottom: 180px;
-    margin-left: 40px;
-    margin-top: 100px;
-    padding-top: 50px;
-    
-   
-    
+  position: relative;
+  bottom: 180px;
+  margin-left: 40px;
+  margin-top: 100px;
+  padding-top: 50px;
 }
 
 .map {
-    
-    border-style: solid;
-    border-color: #002E8B;
-    height: 253px;
-    margin-left: 100px;
-    
+  border-style: solid;
+  border-color: #002e8b;
+  height: 253px;
+  margin-left: 100px;
 }
 
 .contact-us {
-    position: relative;
-    bottom: 75px;
-    margin: 20px;
-    padding: 20px;
-    margin-left: 60px;
-   
+  position: relative;
+  bottom: 75px;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 60px;
 }
 
 .message {
-    height:100px
+  height: 100px;
 }
 
 /*--------------------SERVICES PAGE--------------------*/
 
 .units img {
-    border-style: solid;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    border-radius: 70%;
-    height: 200px;
-    width: 200px;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 70%;
+  height: 200px;
+  width: 200px;
 }
 
 .units h3 {
-    text-align: center;
-    margin: 10px;
-    width: 475px;
-    height: 5px;
-    position: relative;
-    left:400px;
-    padding-bottom: 20px;
-    
+  text-align: center;
+  margin: 10px;
+  width: 475px;
+  height: 5px;
+  position: relative;
+  left: 400px;
+  padding-bottom: 20px;
 }
 
-
 .units {
-    height: 1050px;
-    display: flex;
-    flex-direction: column;
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
 }
 
 .wired {
-    position: relative;
-    left: 475px;
-    width: 300px;
-    
-    padding-left: 0;
-    padding-top: 75px;
-    text-align: center;
-    padding-left: 20px;
-   
+  position: relative;
+  left: 475px;
+  width: 300px;
+
+  padding-left: 0;
+  padding-top: 75px;
+  text-align: center;
+  padding-left: 20px;
 }
 
 .wireless {
-    position: relative;
-    left: 475px;
-    width: 300px;
-    padding-top: 75px;
-    text-align: center;
-    padding-left:20px
+  position: relative;
+  left: 475px;
+  width: 300px;
+  padding-top: 75px;
+  text-align: center;
+  padding-left: 20px;
+}
 
+.disclaimer {
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
 }
 
 /*---------Content Block 2----------------*/
 
 .buttons {
-    background-color: white;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
+  background-color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
 }
 
 .buttons img {
-    padding-bottom: 20px;
-   
-    text-align: center;
-    border-radius: 50%;
-    width: 200px;
-   
+  padding-bottom: 20px;
+
+  text-align: center;
+  border-radius: 50%;
+  width: 200px;
 }
 
 .basic {
-    align-items: center;
-    padding-left: 250px;
-    width:300px
+  align-items: center;
+  padding-left: 250px;
+  width: 300px;
 }
 
 .auto {
-    padding-left: 200px;
-    width:300px;
-    
+  padding-left: 200px;
+  width: 300px;
 }
 
 .button-title {
-    position: relative;
-    top:30px;
-    padding-top: 70px;
-    padding-bottom: 30px;
-    background-color: white;
-   
+  position: relative;
+  top: 30px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: white;
 }
 
 .buttons li {
-    margin: 5px;
+  margin: 5px;
 }
 
 .break-button {
-    position: relative;
-    top: 60px
+  position: relative;
+  top: 60px;
 }
 
 /*------------------Content Block 3----------------------*/
 
 .coming-soon img {
-    position: relative;
-    left:750px;
-    bottom:110px;
-    width: 300px;
-    height: 250px;
-    box-shadow: rgba(43, 122, 218, 0.372) 5px 5px, rgba(19, 16, 198, 0.434) 10px 10px, rgba(59, 128, 213, 0.427) 15px 15px, rgba(46, 198, 240, 0.408) 20px 20px, rgba(20, 79, 216, 0.448) 25px 25px;
+  position: relative;
+  left: 750px;
+  bottom: 110px;
+  width: 300px;
+  height: 250px;
+  box-shadow: rgba(43, 122, 218, 0.372) 5px 5px,
+    rgba(19, 16, 198, 0.434) 10px 10px, rgba(59, 128, 213, 0.427) 15px 15px,
+    rgba(46, 198, 240, 0.408) 20px 20px, rgba(20, 79, 216, 0.448) 25px 25px;
 }
 
 .coming-soon ul {
-    position:relative;
-    left: 80px;
-    top: 100px;
+  position: relative;
+  left: 80px;
+  top: 100px;
 }
 
 .coming-soon li {
-    margin: 15px;
+  margin: 15px;
 }
 
 /*------------------Content Block 4---------------------*/
 
 .table h3 {
-    padding-top: 50px;
-    background-color: white;
+  padding-top: 50px;
+  background-color: white;
 }
 
 .table {
-    position: relative;
-    bottom:75px;
-    background-color: white;
-    padding-bottom: 75px;
+  position: relative;
+  bottom: 75px;
+  background-color: white;
+  padding-bottom: 75px;
 }
 
 .table table {
-    background-color: aliceblue;
-    position: relative;
-    left:350px;
-    border-style: solid;
-    border-color: #002E8B;
-    border-width: 5px;
+  background-color: aliceblue;
+  position: relative;
+  left: 350px;
+  border-style: solid;
+  border-color: #002e8b;
+  border-width: 5px;
 }
 
 .table td {
-    border-style: solid;
+  border-style: solid;
+}
+
+.last-break {
+  position: relative;
+  bottom: 100px;
 }
