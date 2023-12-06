@@ -20,7 +20,7 @@ h3 {
   text-align: center;
 }
 
-/* Nav */
+/* Nav ------------ALL PAGES-*/
 
 .header {
   background-color: white;
@@ -41,7 +41,6 @@ nav ul {
 
 nav li a {
   font-size: 18px;
-
   color: black;
   margin: 10px;
   text-decoration: none;
@@ -57,7 +56,11 @@ hr {
   background-color: #073980;
 }
 
-/* Content Block One */
+
+
+
+/*HOMEPAGE*/
+/*--------------- Content Block One ------------------*/
 
 .intro-1 {
   text-align: center;
@@ -80,7 +83,8 @@ hr {
   padding-top: 150px;
 }
 
-/* Content Block 2 */
+
+/* ---------------------Content Block 2------------------- */
 
 .content-2 {
   height: 400px;
@@ -102,12 +106,14 @@ hr {
   flex-direction: column;
 }
 
-/* Content Block 3 */
+
+
+/*------------------------ Content Block 3-------------- */
 
 .break-2 {
   position: relative;
   bottom: 5px;
-  height: 20;
+  height: 20px;
   color: #073980;
 }
 
@@ -126,7 +132,7 @@ hr {
 
 .step-1 {
   font-size: 20px;
-  height: 300;
+  height: 300px;
   text-align: center;
   width: 500px;
 }
@@ -149,7 +155,7 @@ hr {
   width: 600px;
 }
 
-/* Content Block 5 */
+/* Content Block 4 */
 
 .content-4 {
   height: 450px;
@@ -186,7 +192,7 @@ hr {
 }
 
 .link {
-  font-style: bold;
+  
   font-size: 21px;
   margin-top: 5px;
   position: relative;
@@ -202,7 +208,7 @@ hr {
   position: relative;
   bottom: 10px;
 }
-/* Content Block 6 */
+/* Content Block 5 */
 
 .info {
   display: flex;
@@ -216,7 +222,7 @@ hr {
   border-radius: 20%;
   text-align: center;
   margin: 50px;
-  height: 300;
+  height: 300px;
   width: 500px;
   border-color: #002e8b;
   border-style: solid;
@@ -230,7 +236,7 @@ hr {
   background-color: white;
   border-radius: 20%;
   text-align: center;
-  height: 300;
+  height: 300px;
   width: 500px;
   border-color: #002e8b;
   border-style: solid;
@@ -291,7 +297,7 @@ hr {
   width: 300px;
 }
 
-/* footer */
+/* footer ------------ALL PAGES*/
 
 footer hr {
   position: relative;
@@ -302,7 +308,8 @@ a {
   margin-left: 10px;
 }
 
-/*-----------------------ABOUT US-----------------------------*/
+/*ABOUT US*/
+/*---------------------Content Block 1--------------*/
 
 .non-profit {
   padding-bottom: 50px;
@@ -428,7 +435,8 @@ a {
   height: 100px;
 }
 
-/*--------------------SERVICES PAGE--------------------*/
+/*SERVICES PAGE*/
+/*----------------Content Block 1----------------*/
 
 .units img {
   border-style: solid;
@@ -581,4 +589,10 @@ a {
 .last-break {
   position: relative;
   bottom: 100px;
+  margin-bottom:0
+}
+
+.services-footer {
+    position:relative;
+    bottom:50PX
 }
